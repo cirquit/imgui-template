@@ -4,6 +4,12 @@ This template project consists of a single library, an executable that uses the 
 
 The ImGUI library is acan create a simple GUI to debug and test things which is lightweight and portable. It uses SFML and OpenGL for that. We also provide installation steps only for SFML, because OpenGL is mostly provided by any distro.
 
+##### Demo Screenshot
+
+![demo-screenshot](images/demo-screenshot.png)
+
+[Other examples.](https://github.com/ocornut/imgui/issues/123)
+
 ##### How to use
 ```bash
 > git clone https://github.com/cirquit/imgui-template
@@ -35,8 +41,8 @@ To install, extract the SFML archive anywhere and run these commands.
 > sudo make install all
 ```
 
-
 ##### Steps to build the project
+
 ```bash
 > sudo apt-get install libudev-de
 > sudo cp FindSFML.cmake /usr/share/cmake-3.5.0/Modules/    (change path for your cmake version)
